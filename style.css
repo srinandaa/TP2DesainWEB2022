@@ -1,0 +1,184 @@
+/* 
+    Nama  : Sri Nanda Ameliani
+    NIM   : 2008196
+    Kelas : Ilmu Komputer - KOM-4C2
+*/
+
+*
+{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #0f0101;
+}
+
+a:link, a:visited{
+    color: #0f0101;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+    background: #FB6F92;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.navbar
+{
+    background: #FFC2D1;
+    padding: 15px;
+    top: 0;
+    font-size: 16px;
+    word-spacing: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+header{
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo
+{
+    width: auto;
+    height: auto;
+    max-width: 125px;
+    max-height: 125px;
+}
+
+span{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    margin: 10px;
+    width: 20%;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.alone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+footer{
+    background: #FB6F92;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.konten{
+    background: #FFFFFF;
+    padding: 5px;
+}
+
+
+.baris-1{
+    background: #FFC2D1;
+    padding: 5px;
+}
+
+.baris-3{
+    background: #FF8FAB;
+    align-items: stretch;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 5px;
+    border : 10px;
+    text-align: center;
+    max-width: 20%;
+}
+.baris-5{
+    align-items: stretch;
+    display: flex;
+    gap: 5px;
+}
+
+.kiri{
+    background: #FFC2D1;
+    flex: 1;
+    padding: 5px;
+}
+
+.kanan{
+    background: #FF8FAB;
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.form{
+    color: #0f0101;
+    font-size: medium;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.input{
+    background: #FFC2D1;
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.submit{
+    background: #FB6F92;
+    color: #0f0101;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    width: 98%;
+}
+
+.details{
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.fototop{
+    background: #FFFFFF;
+    border: 10px;
+    box-shadow: 3px 3px 6px;
+    width: 15%;
+}
+
+.topberry{
+    color: #FF8FAB;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: justify;
+}

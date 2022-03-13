@@ -1,0 +1,84 @@
+<!--
+    Nama  : Sri Nanda Ameliani
+    NIM   : 2008196
+    Kelas : Ilmu Komputer - KOM-4C2
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title>TP2 - Sri Nanda Ameliani</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <nav class = "navbar">
+            <a href = "index.html">Home</a>
+            <a href = "strawberry.html">Strawberry</a>
+            <a href = "blueberry.html">Blueberry</a>
+            <a href = "blackberry.html">Blackberry</a>
+            <a href = "contact.html">Contact</a>
+        </nav>
+        <!-- Header -->
+        <header>
+            <a href = "index.html">
+                <img class = "logo" src = "img/logoberry.png">
+                <h1><i>Keep Calm and Eat a Berry!</i></h1>
+            </a>
+        </header>
+
+        <!-- Konten -->
+        <form method = "post" action = "./contact.html">
+            <fieldset class = "baris-1">
+                <!-- Name content, with required attribute and custom validity. -->
+                <label for = "name">
+                    <p class = "form">Nama</p>
+                    <input
+                        class = "input"
+                        name = "name"
+                        type = "text"
+                        placeholder = "Nama Kamu..."
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')" />
+                </label>
+    
+                <!-- Region content, with required attribute and custom validity. -->
+                <label for = "region">
+                    <p class = "form">Asal Negara</p>
+                    <input
+                        class = "input"
+                        name = "region"
+                        type = "text"
+                        placeholder = "Asal..."
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')" />
+                </label>
+    
+                <!-- Message content, with required attribute and custom validity. -->
+                <label for = "message">
+                    <p class = "form">Pesan</p>
+                    <textarea
+                        class = "input"
+                        name = "message"
+                        placeholder = "Isi Pesan..."
+                        rows = 3
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')"
+                    ></textarea>
+                </label>
+
+                <!-- Input button. -->
+                <input class = "submit" type = "submit" value = "Submit" />
+            </fieldset>
+        </form>
+
+        <!-- Footer. -->
+        <footer>
+            <h4>TP2 - Praktikum Desain dan Pemrograman Web</h4>
+        </footer>
+    </body>
+</html>
